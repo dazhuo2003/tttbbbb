@@ -1,0 +1,266 @@
+{
+  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/TV/refs/heads/release/jar/custom_spider.jar",
+  "wallpaper": "https://bing.img.run/rand.php",
+  "sites": [
+    {
+      "key": "豆瓣",
+      "name": "🔥 豆瓣热榜┃热播排行",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "lz",
+      "name": "⚡ 量子影视┃超清秒播",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "香港剧",
+        "台湾剧",
+        "泰剧",
+        "动漫",
+        "综艺",
+        "纪录片"
+      ]
+    },
+    {
+      "key": "ff",
+      "name": "🚀 非凡影视┃海量片库",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "香港剧",
+        "台湾剧",
+        "泰剧",
+        "动漫",
+        "综艺",
+        "纪录片"
+      ]
+    },
+    {
+      "key": "hn",
+      "name": "🐂 红牛影视┃高清蓝光",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "香港剧",
+        "台湾剧",
+        "泰剧",
+        "动漫",
+        "综艺",
+        "纪录片"
+      ]
+    },
+    {
+      "key": "kk",
+      "name": "👀 快看影视┃极速缓冲",
+      "type": 1,
+      "api": "https://kuaikan-api.com/api.php/provide/vod/from/kkm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "bf",
+      "name": "🌪️ 暴风影视┃稳定备用",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "sn",
+      "name": "🎵 索尼影视┃全网汇聚",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "gs",
+      "name": "💫 光速影视┃更新极速",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "js",
+      "name": "🏎️ 极速影视┃无缝连接",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yh",
+      "name": "🌸 樱花动漫┃连载新番",
+      "type": 1,
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "wl",
+      "name": "🐉 卧龙影视┃热剧聚合",
+      "type": 1,
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "md",
+      "name": "🏙️ 魔都影视┃综合资源",
+      "type": 1,
+      "api": "https://caiji.moduapi.cc/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "push_agent",
+      "name": "📲 手机/电脑推送┃投屏点播",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    }
+  ],
+  "lives": [
+    {
+      "name": "📺 央视卫视高清（IPv4+IPv6双栈）",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/itv.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
+    },
+    {
+      "name": "✨ 整挺好优质直播专线",
+      "type": 0,
+      "url": "https://s2.pub/ZTHAIPTV21"
+    },
+    {
+      "name": "⚡ 范明明IPv6超清直播",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
+    },
+    {
+      "name": "💾 本地/局域网备用直播",
+      "type": 0,
+      "url": "./live_channels.txt"
+    }
+  ],
+  "parses": [
+    {
+      "name": "🚀 聚合解析（推荐）",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "💎 蓝光秒播解析",
+      "type": 0,
+      "url": "https://jx.777jiexi.com/player/?url="
+    },
+    {
+      "name": "✨ 纯净解析通道",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    },
+    {
+      "name": "⚡ 极速M3U8解析",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "🎯 综合智能解析",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "renrenmi"
+  ],
+  "rules": [
+    {
+      "name": "广告过滤规则1",
+      "hosts": [
+        "vip.ffzy",
+        "hd.lz"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "广告过滤规则2",
+      "hosts": [
+        "*"
+      ],
+      "regex": [
+        "http((?!http).){12,}?\\.(m3u8|mp4)\\?(\\S*?&)?(auth_key|sign|token)="
+      ]
+    }
+  ]
+}
