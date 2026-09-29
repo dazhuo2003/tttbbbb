@@ -1,12 +1,87 @@
 {
-  "spider": "https://ghfast.top/https://raw.githubusercontent.com/FongMi/TV/refs/heads/release/jar/custom_spider.jar",
+  "spider": "https://ghfast.top/https://raw.githubusercontent.com/xiongjian83/TvBox/main/jar/spider.jar",
   "wallpaper": "https://bing.img.run/rand.php",
   "sites": [
     {
       "key": "lz",
-      "name": "⚡ 量子影视┃超清秒播(首选)",
+      "name": "⚡ 量子影视┃超清秒播(首选防转圈)",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Jpys",
+      "name": "🥇 金牌影视┃极速蓝光",
+      "type": 3,
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.haituu.tv"
+    },
+    {
+      "key": "csp_Gz360",
+      "name": "🍈 瓜子影视┃热播大片",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_JianPian",
+      "name": "🎬 荐片影视┃高清磁力秒播",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://api2.rinhome.com"
+    },
+    {
+      "key": "csp_Czzy",
+      "name": "🏭 厂长资源┃蓝光无广告",
+      "type": 3,
+      "api": "csp_Czzy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Wogg",
+      "name": "🧸 玩偶哥哥┃4K杜比原盘",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.wogg.net"
+    },
+    {
+      "key": "csp_Ddrk",
+      "name": "🛸 低端影视┃高分精选",
+      "type": 3,
+      "api": "csp_Ddrk",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Duboku",
+      "name": "📺 独播库┃海外华人专线",
+      "type": 3,
+      "api": "csp_Duboku",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Saohuo",
+      "name": "🔥 骚火电影┃院线同步",
+      "type": 3,
+      "api": "csp_Saohuo",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -39,8 +114,35 @@
       "filterable": 1
     },
     {
+      "key": "sn",
+      "name": "🎵 索尼影视┃热门精选",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "gs",
+      "name": "💫 光速影视┃更新极速",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "js",
+      "name": "🏎️ 极速影视┃秒播无阻",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "bf",
-      "name": "🌪️ 暴风影视┃备用专线",
+      "name": "🌪️ 暴风影视┃经典片源",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/at/json/",
       "searchable": 1,
@@ -48,10 +150,37 @@
       "filterable": 1
     },
     {
-      "key": "sn",
-      "name": "🎵 索尼影视┃热门精选",
+      "key": "wl",
+      "name": "🐉 卧龙影视┃全网汇聚",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "md",
+      "name": "🏙️ 魔都影视┃综合片库",
+      "type": 1,
+      "api": "https://caiji.moduapi.cc/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xl",
+      "name": "🌊 新浪影视┃热播剧场",
+      "type": 1,
+      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "hy",
+      "name": "🐯 虎牙影视┃极速分发",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/at/json/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -66,10 +195,46 @@
       "filterable": 1
     },
     {
-      "key": "豆瓣",
-      "name": "🔥 豆瓣热播榜",
+      "key": "bd",
+      "name": "🐻 百度云播┃综合大库",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "dj",
+      "name": "🎭 热门短剧┃爽文专区",
+      "type": 1,
+      "api": "https://apidj.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "douban",
+      "name": "🔥 豆瓣电影┃排行榜",
       "type": 3,
       "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "bili",
+      "name": "📺 哔哩哔哩┃精选弹幕",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "push_agent",
+      "name": "📲 手机电脑┃远程投屏推送",
+      "type": 3,
+      "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -77,35 +242,63 @@
   ],
   "lives": [
     {
-      "name": "📺 央视卫视高清",
+      "name": "📺 央视卫视高清（双栈秒播）",
       "type": 0,
       "url": "https://live.fanmingming.com/tv/m3u/itv.m3u",
       "epg": "https://live.fanmingming.com/e.xml"
     },
     {
-      "name": "✨ 整挺好直播",
+      "name": "✨ 整挺好优质直播专线",
       "type": 0,
       "url": "https://s2.pub/ZTHAIPTV21"
+    },
+    {
+      "name": "⚡ 范明明IPv6超清直播",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "epg": "https://live.fanmingming.com/e.xml"
     }
   ],
   "parses": [
     {
-      "name": "🚀 聚合解析",
+      "name": "🚀 聚合解析（首选）",
       "type": 0,
       "url": "https://jx.xmflv.com/?url="
     },
     {
-      "name": "💎 蓝光解析",
+      "name": "💎 蓝光秒播解析",
       "type": 0,
       "url": "https://jx.777jiexi.com/player/?url="
     },
     {
-      "name": "✨ 纯净解析",
+      "name": "✨ 纯净解析通道",
       "type": 0,
       "url": "https://jx.jsonplayer.com/player/?url="
+    },
+    {
+      "name": "⚡ 极速M3U8解析",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "🎯 综合智能解析",
+      "type": 0,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
     }
   ],
   "flags": [
-    "youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "mgtv", "wasu", "bilibili"
+    "youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "mgtv", "wasu", "bilibili", "renrenmi"
+  ],
+  "rules": [
+    {
+      "name": "广告过滤1",
+      "hosts": ["vip.ffzy", "hd.lz"],
+      "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
+    },
+    {
+      "name": "广告过滤2",
+      "hosts": ["*"],
+      "regex": ["http((?!http).){12,}?\\.(m3u8|mp4)\\?(\\S*?&)?(auth_key|sign|token)="]
+    }
   ]
 }
